@@ -77,16 +77,25 @@ header {
 }
 
 .gallery img {
-    transition: all 0.2s;
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
+    max-width: 200px;
+    width: 90%;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-style: solid;
+    border-width: 15px;
+    border-top-color: lighten(#000, 20%);
+    border-right-color: lighten(#000, 0%);
+    border-bottom-color: lighten(#000, 20%);
+    border-left-color: lighten(#000, 0%);
+    box-shadow: 2px 2px 4px rgba(0,0,0,.6);
     cursor: pointer;
-    border: 6px solid white;
+    transition: all 0.1s;
 }
 
 .gallery img:hover {
     box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    transform: scale(1.1);
 }
 
 /* The Modal (background) */
