@@ -80,7 +80,7 @@ function listTopic(page) {
         }
     });
 }
-
+listTopic();
 
 // Get the modal
 const modal = $("#myModal");
