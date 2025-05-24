@@ -3,7 +3,7 @@ let lastId = null;
 
 // Define the header for the API requests and authorize for it
 const header = {
-    'Authorization': 'Bearer ${API_KEY}',
+    'Authorization': '${API_KEY}',
 };
 
 // Function to get the URL for photos of a specific topic
